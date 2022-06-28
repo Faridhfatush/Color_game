@@ -19,11 +19,12 @@ h1 {
       w
   } */
 
-main {
-}
+
+
 
 .rgb {
   font-size: 1.4rem;
+  font-weight: bolder;
   text-transform: uppercase;
 }
 
@@ -51,10 +52,14 @@ main {
   width: 60vw;
   margin: 20px auto;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 .diff {
   margin: 20px auto;
+  background: rgba(245, 243, 243, 0.836);
+  color: rgba(15, 15, 15, 0.822);
+  border-color: rgba(15, 15, 15, 0.877);
 }
 
 .diff__btn {
