@@ -88,7 +88,7 @@ function checkColors(blockClr, block, colorsBlocks) {
     statusEl.style.color = `${correctColor}`;
 
   } else {
-    block.style.backgroundColor = block.style.backgroundColor;
+    block.style.backgroundColor = "#eee";
     statusEl.textContent = `Keep guessing...!`;
     statusEl.style.color = 'black';
   }
